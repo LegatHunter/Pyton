@@ -116,3 +116,27 @@ from random import randint
 #     if (num_1 == sum_del_2) and (num_1 != num_2) and (num_1 < num_2):
 #         print(num_1, num_2)
 
+
+# В списке хранятся числа. Нужно выбрать только чётные числа и составить список пар (число; квадрат)
+
+# def para(a):
+#     para=list()
+#     for i in a:
+#         if i % 2 == 0:
+#             para.append((i, i**2))
+#     return para
+# a = [1, 2, 3, 5, 8, 15, 23, 38]
+# print(para(a))
+
+# def select(f,col):
+#     return [f(x) for x in col]
+
+# def where(f, col):
+#     return [x for x in col if f(x)]
+# a = [1, 2, 3, 5, 8, 15, 23, 38]
+# res = select(int, a)
+# print(res)
+# res = where(lambda x: x % 2 ==0, res)
+# print(res)
+# res = list(select(lambda x: (x, x**2), res))
+# print(res)
